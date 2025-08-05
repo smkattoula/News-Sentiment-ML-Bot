@@ -1,0 +1,26 @@
+# Core dependencies for News Sentiment Trading Strategy
+
+# Essential Data Processing
+pandas>=1.3.0
+numpy>=1.21.0
+tqdm>=4.60.0  # Progress bars for processing
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+shap>=0.40.0
+
+# Deep Learning / NLP (FinBERT)
+torch>=2.0.0  # Note: 2.6.0 not available yet, using latest stable
+transformers>=4.20.0
+
+# Market Data
+yfinance>=0.1.70
+
+# Note: The following are NOT needed for the core scripts:
+# - requests (not used in final scripts)
+# - beautifulsoup4 (not used in final scripts)
+# - lxml (not used in final scripts)
+# - matplotlib (not used in final scripts)
+# - seaborn (not used in final scripts)
+# - python-dateutil (comes with pandas)
